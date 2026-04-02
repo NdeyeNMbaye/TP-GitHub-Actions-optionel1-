@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jre-jammy
+FROM amazoncorretto:17
 WORKDIR /app
 COPY target/*.jar app.jar
 EXPOSE 8015
