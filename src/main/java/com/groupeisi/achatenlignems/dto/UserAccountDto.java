@@ -1,12 +1,12 @@
 package com.groupeisi.achatenlignems.dto;
-
+import java.io.Serializable;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserAccountDto {
+public class UserAccountDto implements Serializable{
 
 
     private Long id;
