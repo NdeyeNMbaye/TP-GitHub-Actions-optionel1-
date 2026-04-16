@@ -1,20 +1,19 @@
-## CI/CD Pipeline avec GitLab CI
+## Github action
 
+Ce projet met en place une chaîne d’intégration continue et de déploiement continu (CI/CD) en utilisant GitHub Actions.
 
-Ce projet a pour objectif la mise en place d’une chaîne d’intégration continue et de déploiement continu (CI/CD) en utilisant GitLab CI.
-
-Le pipeline automatise le cycle de développement et de livraison d’une application via Docker.
+Le pipeline automatise le cycle de développement et de livraison d’une application conteneurisée via Docker.
 
 ###  Objectif du TP
 
-Mettre en place un pipeline CI/CD permettant :
+Mise en place d’un pipeline CI/CD permettant :
 
 le build automatique du projet
 l’exécution des tests
 la construction d’une image Docker
 le push vers Docker Hub
 
-### Configuration CI/CD
+### Configuration 
 
 Le pipeline est défini dans le fichier suivant :
 
@@ -22,7 +21,7 @@ Le pipeline est défini dans le fichier suivant :
 
 ### Étapes du pipeline
 
-Le pipeline GitLab CI exécute les étapes suivantes :
+Le pipeline GITHUB ACTION exécute les étapes suivantes :
 
 Récupération du code source
 Build avec Maven
@@ -52,4 +51,6 @@ Docker image pushed successfully
 
 <img width="1917" height="886" alt="image" src="https://github.com/user-attachments/assets/3a884abe-78eb-4575-bc62-321d18272e43" />
 
+
+Ce workflow est déclenché automatiquement à chaque push sur la branche main.
 
