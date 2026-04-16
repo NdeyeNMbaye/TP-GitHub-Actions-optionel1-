@@ -40,3 +40,13 @@ Le pipeline s’exécute automatiquement à chaque push sur le repository GitLab
 Build succeeded
 Tests passed
 Docker image pushed successfully
+
+<img width="1600" height="794" alt="image" src="https://github.com/user-attachments/assets/95abea0f-61e3-420a-a6d5-76c01c91ee03" />
+
+<img width="1600" height="806" alt="image" src="https://github.com/user-attachments/assets/264bc639-40d3-476e-9660-98072de2cb63" />
+
+<img width="1600" height="841" alt="image" src="https://github.com/user-attachments/assets/eee1934a-7712-4682-9973-971434ac7fa6" />
+
+
+<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/95dd2f05-a0c4-432e-a2b8-3b95206128d7" />
+
